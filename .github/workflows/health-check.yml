@@ -1,11 +1,11 @@
 name: Scheduled Health Check
 
 # Controls when the action will run.
-on:
+#on:
 #  push:
 #    branches:
 #      - main
-  schedule:
+#  schedule:
 #    - cron: "0 0/12 * * *"
 
 jobs:

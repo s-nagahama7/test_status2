@@ -22,6 +22,7 @@ module.exports = {
         'moon-gray': '#cccccc',
         'light-gray': '#eeeeee',
         'lightest-blue': '#cdecff',
+        'greyish-light-blue': '#deeef7',
       },
     },
   },

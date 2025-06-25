@@ -10,7 +10,6 @@ import { Status } from '../utils/constants';
 const ServicesSection: NextPage = () => {
     const [data, isServicesLoading] = useServices();
     const {systemStatus, isLoading} = useSystemStatus();
-    systemStatus.status = Status.OUTAGE
 
     const Icon = () => {
         if (systemStatus?.status === Status.OPERATIONAL) {

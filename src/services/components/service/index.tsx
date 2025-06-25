@@ -10,7 +10,6 @@ interface ServiceItemProps {
 }
 
 const ServiceItem: FunctionComponent<ServiceItemProps> = ({ item }) => {
-    item.status = Status.OUTAGE
     const Icon = () => {
         if (item?.status === Status.OPERATIONAL) {
             return <svg className="h-6 w-6 flex-none fill-sky-100 stroke-green-500 stroke-2">

@@ -54,7 +54,10 @@ const ServiceItem: FunctionComponent<ServiceItemProps> = ({ item }) => {
                     ))
                 }
             </div>
-
+            <div className="flex mt-2 justify-between items-start">
+                <p className="text-xs text-gray-400 items-baseline self-baseline">90 days ago</p>
+                <p className="text-xs text-gray-400 items-baseline self-baseline">Today</p>
+            </div>
         </div>
     )
 }

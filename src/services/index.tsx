@@ -62,10 +62,10 @@ const ServicesSection: NextPage = () => {
                             </ul>
                         )
                     }
-                </div>
-                <div className="justify-between items-start">
-                    <p className="text-xs text-gray-400 items-baseline self-baseline">90 days ago</p>
-                    <p className="text-xs text-gray-400 items-baseline self-baseline">Today</p>
+                    <div className="justify-between items-start">
+                        <p className="text-xs text-gray-400 items-baseline self-baseline">90 days ago</p>
+                        <p className="text-xs text-gray-400 items-baseline self-baseline">Today</p>
+                    </div>
                 </div>
                 <p className="mt-10 sm:text-lg	text-base font-semibold leading-7 text-gray-900">History</p>
                 <IncidentsSection />

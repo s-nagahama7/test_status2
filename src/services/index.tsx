@@ -10,9 +10,9 @@ import { Status } from '../utils/constants';
 const ServicesSection: NextPage = () => {
     const [data, isServicesLoading] = useServices();
     const {systemStatus, isLoading} = useSystemStatus();
+    systemStatus.status = Status.PARTIAL_OUTAGE
 
     const Icon = () => {
-        systemStatus.status = Status.PARTIAL_OUTAGE
         if (systemStatus?.status === Status.OPERATIONAL) {
             return <svg className="h-6 w-6 flex-none fill-sky-100 stroke-green-500 stroke-2">
                             <circle cx="12" cy="12" r="11" />

@@ -12,6 +12,7 @@ const ServicesSection: NextPage = () => {
     const {systemStatus, isLoading} = useSystemStatus();
 
     const Icon = () => {
+        systemStatus.status = Status.PARTIAL_OUTAGE
         if (systemStatus?.status === Status.OPERATIONAL) {
             return <svg className="h-6 w-6 flex-none fill-sky-100 stroke-green-500 stroke-2">
                             <circle cx="12" cy="12" r="11" />
